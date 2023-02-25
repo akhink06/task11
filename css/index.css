@@ -210,6 +210,7 @@ header .content .right ul li .delete a img {
 
 #spotlight section.container { 
     display: flex;
+    padding-bottom: 90px;
 }
 
 #spotlight section.container div.left { 
@@ -272,4 +273,167 @@ header .content .right ul li .delete a img {
     display: block;
     width: 100%;
     box-shadow: -10px 10px #f3643f;
+  
+}
+#main {
+    background: #f9f9f9;
+}
+
+#main section.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#main section.container div.left{
+    margin-left: 110px;
+    margin-top: 40px;
+   
+}
+#main section.container div.left h3{
+    position: relative;
+    color: #f3643f;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 40px;   
+}
+#main section.container div.left h3 div.box {
+
+    width: 22px;
+    height: 40px;
+    border: 2px solid #000;
+    position: absolute;
+    top: -10px;
+    left: 6px;
+}
+#main section.container div.left h1 { 
+    width: 62%;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+#main section.container div.left p { 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #797576;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    width: 85%;
+}
+
+#main section.container div.left p b{
+    color: #f3643f;
+}
+
+#main section.container div.left div.future { 
+    width: 75%;
+}
+
+#main section.container div.left div.future div.vision { 
+    background: #ffff;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#main section.container div.left div.future div.vision div.img { 
+    width: 12%;
+    margin: 15px 15px;
+}
+
+#main section.container div.left div.future div.vision div.img img { 
+    display: block;
+    width: 100%;
+   
+}
+
+#main section.container div.left div.future div.vision div.item h3 { 
+    color: #000;
+    margin: 8px 0 0 0;
+}
+
+#main section.container div.left div.future div.vision div.item p { 
+    color: #797576;
+    margin: 5px 0 0 0;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    
+}
+
+#main section.container div.left div.future div.vision p b { 
+    color: #f3643f;
+}
+
+#main section.container div.left div.future div.mission { 
+    background: #ffff;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#main section.container div.left div.future div.mission div.img { 
+    width: 12%;
+    margin: 15px 15px;
+}
+
+#main section.container div.left div.future div.mission div.img img { 
+    display: block;
+    width: 100%;
+}
+
+#main section.container div.left div.future div.mission div.item h3 { 
+    color: #000;
+    margin: 8px 0 0 0;
+}
+
+#main section.container div.left div.future div.mission div.item p { 
+    color: #797576;
+    margin: 5px 0 0 0;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+#main section.container div.left div.future div.mission p b { 
+    color: #f3643f;
+}
+
+#main section.container div.right { 
+   position: relative;
+   width: 40%;
+}
+
+#main section.container div.right div.img { 
+    width: 80%;
+}
+
+#main section.container div.right div.img img { 
+    display: block;
+    width: 100%;
+}
+
+#main section.container div.right div.experiance { 
+    position: absolute;
+    bottom: 0px;
+    width: 80%;
+    background: #12192c; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main section.container div.right div.experiance h1 { 
+    color: #f3643f;
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin-right: 10px;
+}
+
+#main section.container div.right div.experiance p { 
+    color: #ffff;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    width: 72px;
+    line-height: 1.8em;
 }
