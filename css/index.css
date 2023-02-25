@@ -18,7 +18,7 @@ del {
 	text-decoration: line-through;
 }
 body {
-	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+    font-family: "Barlow Condensed";
 	font-size: 17px;
 	color: #1C2C40;
 	overflow-x: hidden;
@@ -26,12 +26,14 @@ body {
 	font-weight: 400;
 }
 input,textarea,select{
-	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
 	font-weight: 400;
+    font-family: "Barlow Condensed";
 }
 
 a{
 	color: #1C2C40;
+    font-family: "Barlow Condensed";
+
 }
 a:hover,.submit:hover{
 	filter: alpha(opacity = 85);
@@ -49,11 +51,11 @@ a:hover,.submit:hover{
 p{
 	line-height:1.6em;
 	font-size: 16px;
-	font-family: "GT-Eesti", Arial;
 	font-weight: 400;
+    font-family: "Barlow Condensed";
 }
 .hidden{
-	display:;
+	display: none;
 }
 br.clear {
 	clear: both;
@@ -62,76 +64,142 @@ br.clear {
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
-	max-width:1040px;
+	max-width:1240px;
 }
 @font-face {
-    font-family: 'Inter-Black';
-    src: url('../fonts/Inter-Black.woff2') format('woff2');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Inter-Bold';
-    src: url('../fonts/Inter-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Inter-ExtraBold';
-    src: url('../fonts/Inter-ExtraBold.woff2') format('woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Inter-Thin';
-    src: url('../fonts/Inter-Thin.woff2') format('woff2');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Inter-ExtraLight';
-    src: url('../fonts/Inter-ExtraLight.woff2') format('woff2');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Inter-Medium';
-    src: url('../fonts/Inter-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter-Regular.woff2') format('woff2');
+    font-family: 'Barlow Condensed';
+    src: url('../fonts/BarlowCondensed-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Inter-Light';
-    src: url('../fonts/Inter-Light.woff2') format('woff2');
-    font-weight: 300;
+    font-family: 'Barlow Condensed';
+    src: url('../fonts/BarlowCondensed-Medium.woff2') format('woff2');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Inter-SemiBold';
-    src: url('../fonts/Inter-SemiBold.woff2') format('woff2');
+    font-family: 'Barlow Condensed';
+    src: url('../fonts/BarlowCondensed-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('../fonts/BarlowCondensed-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
+}
+
+
+header { 
+    padding: 20px 0;
+    border-bottom: 1px solid #cccbcb;
+}
+
+header .content { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .content div.left { 
+    display: flex;
+    align-items: center;
+}
+
+header .content .left { 
+    display: block;
+    width: 100%;
+}
+header .content .left h1 {
+    margin-right: 24px;
+    width: 34px;
+}
+header .content .left h1 a {
+    display: block;
+}
+header .content .left h1 a img {
+    display: block;
+    width: 100%;
+}
+header .content .middle { 
+   
+}
+
+header .content .middle ul { 
+    display: flex;
+}
+
+header .content .middle ul li { 
+    margin-right: 10px;
+
+}
+
+header .content .middle ul li a { 
+
+}
+
+header .content .right { 
+
+}
+
+header .content .right ul { 
+    display: flex;
+    align-items: center;
+}
+
+header .content .right ul li:first-child { 
+    margin-right: 20px;
+
+}
+
+header .content .right ul li form { 
+    display: flex;
+    align-items: center;
+}
+
+header .content .right ul li form label { 
+    width: 15px;
+}
+header .content .right ul li form input[type="search"] {
+    padding: 0 0 0 8px;
+}
+header .content .right ul li form input[type="search"]::placeholder {
+    color: #000;
+}
+
+header .content .right ul li form label img { 
+    display: block;
+    width: 100%;
+
+}
+
+header .content .right ul li form #search { 
+    width: 70px;
+    color: black;
+
+}
+
+header .content .right ul li .delete { 
+    background: #f3643f;
+    padding: 5px;
+}
+
+header .content .right ul li .delete a { 
+   width: 18px;
+   display: block;
+   
+}
+
+header .content .right ul li .delete a img { 
+    display: block;
+    width: 100%;
 }
