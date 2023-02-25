@@ -18,7 +18,7 @@ del {
 	text-decoration: line-through;
 }
 body {
-    font-family: "Barlow Condensed";
+    font-family: 'BarlowCondensed-Regular';
 	font-size: 17px;
 	color: #1C2C40;
 	overflow-x: hidden;
@@ -27,12 +27,12 @@ body {
 }
 input,textarea,select{
 	font-weight: 400;
-    font-family: "Barlow Condensed";
+    font-family: 'BarlowCondensed-Regular';
 }
 
 a{
 	color: #1C2C40;
-    font-family: "Barlow Condensed";
+    font-family: 'BarlowCondensed-Regular';
 
 }
 a:hover,.submit:hover{
@@ -52,7 +52,7 @@ p{
 	line-height:1.6em;
 	font-size: 16px;
 	font-weight: 400;
-    font-family: "Barlow Condensed";
+    font-family: 'BarlowCondensed-Regular';
 }
 .hidden{
 	display: none;
@@ -64,10 +64,10 @@ br.clear {
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
-	max-width:1240px;
+	max-width:1300px;
 }
 @font-face {
-    font-family: 'Barlow Condensed';
+    font-family: 'BarlowCondensed-Regular';
     src: url('../fonts/BarlowCondensed-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
@@ -75,7 +75,7 @@ br.clear {
 }
 
 @font-face {
-    font-family: 'Barlow Condensed';
+    font-family: 'BarlowCondensed-Medium';
     src: url('../fonts/BarlowCondensed-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
@@ -83,7 +83,7 @@ br.clear {
 }
 
 @font-face {
-    font-family: 'Barlow Condensed';
+    font-family: 'BarlowCondensed-Bold';
     src: url('../fonts/BarlowCondensed-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
@@ -91,7 +91,7 @@ br.clear {
 }
 
 @font-face {
-    font-family: 'Barlow Condensed';
+    font-family: 'BarlowCondensed-SemiBold';
     src: url('../fonts/BarlowCondensed-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
@@ -139,12 +139,12 @@ header .content .middle ul {
 }
 
 header .content .middle ul li { 
-    margin-right: 10px;
-
+    margin-right: 15px;
+    font-size: 14px;
 }
 
 header .content .middle ul li a { 
-
+    font-family: 'BarlowCondensed-SemiBold';
 }
 
 header .content .right { 
@@ -174,6 +174,7 @@ header .content .right ul li form input[type="search"] {
 }
 header .content .right ul li form input[type="search"]::placeholder {
     color: #000;
+    font-family: 'BarlowCondensed-SemiBold';
 }
 
 header .content .right ul li form label img { 
@@ -202,4 +203,73 @@ header .content .right ul li .delete a {
 header .content .right ul li .delete a img { 
     display: block;
     width: 100%;
+}
+#spotlight { 
+    padding: 100px 0 50px;
+}
+
+#spotlight section.container { 
+    display: flex;
+}
+
+#spotlight section.container div.left { 
+    padding:15px 15px 0 0;
+}
+
+#spotlight section.container div.left h5 { 
+    color: #f3643f;
+    font-family: 'BarlowCondensed-SemiBold';
+    font-size: 15px;
+    letter-spacing: 0.2em;
+}
+
+#spotlight section.container div.left h1 { 
+    font-size: 72px;
+    font-weight: 600;
+    width: 485px;
+    padding-top: 25px;
+}
+
+#spotlight section.container div.left p { 
+    font-size: 14px;
+    font-weight: 500;
+    width: 326px;
+    color: #797576;
+    padding-top: 25px;
+    line-height: 1.2em;
+    padding-bottom: 45px;
+    
+}
+
+#spotlight section.container div.left a.button { 
+    border: 1px solid #f3643f;
+    letter-spacing: 0.1em;
+    padding: 5px 25px;
+    color: #ffff;
+    background: #f3643f;
+}
+
+#spotlight section.container div.right { 
+
+}
+
+#spotlight section.container div.right ul { 
+    display: flex;
+    justify-content: end;
+   
+}
+
+#spotlight section.container div.right ul li { 
+    width: 26%;
+    margin-left: 25px;
+}
+
+#spotlight section.container div.right ul li:first-child{ 
+    margin-left: 0px;
+
+}
+#spotlight section.container div.right ul li img { 
+    display: block;
+    width: 100%;
+    box-shadow: -10px 10px #f3643f;
 }
