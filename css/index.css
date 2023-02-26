@@ -606,3 +606,264 @@ header .content .right ul li .delete a img {
     letter-spacing: 0.1em;
     padding: 5px 15px;
 }
+#project { 
+
+}
+
+#project section.container { 
+
+}
+
+#project section.container div.top { 
+    text-align: center;
+}
+
+#project section.container div.top h3 { 
+    position: relative;
+    color: #f3643f;
+    letter-spacing: 0.2em;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;  
+}
+
+#project section.container div.top h3 div.box { 
+    width: 22px;
+    height: 40px;
+    border: 2px solid #000;
+    position: absolute;
+    top: -10px;
+    left: 719px;
+}
+
+#project section.container div.top h1 { 
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px; 
+}
+
+#project section.container div.top p { 
+    font-size: 12px;
+    color: #797576;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 60px;
+}
+
+#project section.container div.bottom { 
+    margin-bottom: 100px;
+   
+}
+
+#project section.container div.bottom ul { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#project section.container div.bottom ul li { 
+    width: 20%;
+}
+
+#project section.container div.bottom ul li:first-child{
+    width: 40%;
+}
+
+#project section.container div.bottom ul li img { 
+    display: block;
+    width: 100%;
+}
+#article { 
+
+}
+
+#article section.container { 
+    margin-bottom: 100px;
+}
+
+#article section.container div.top { 
+    text-align: center;
+}
+
+#article section.container div.top h3 { 
+    position: relative;
+    color: #f3643f;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;  
+}
+
+#article section.container div.top h3 div.box { 
+    width: 22px;
+    height: 40px;
+    border: 2px solid #000;
+    position: absolute;
+    top: -10px;
+    left: 605px;
+}
+
+#article section.container div.top h1 { 
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px; 
+}
+
+#article section.container div.top p { 
+    font-size: 12px;
+    color: #797576;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+    margin-bottom: 60px;
+}
+
+#article section.container div.middle { 
+
+}
+
+#article section.container div.middle ul { 
+    display: flex;
+    justify-content: space-between;
+}
+
+#article section.container div.middle ul li { 
+    width: 30%;
+    padding-bottom: 30px;
+}
+
+#article section.container div.middle ul li div.image1 { 
+    background-image: url(../Assets/close-up-industrial-robot-welding-car-factory-close-up-industrial-robot-welding-metal-part-car-factory-109640032.jpg);
+    background-repeat: no-repeat;
+    background-position: center;;
+    background-size: 385px;
+    height: 225px;
+    width: 100%;
+}
+
+#article section.container div.middle ul li div.image1 div.svg { 
+    background: #f3643f;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 25px;
+    
+}
+
+#article section.container div.middle ul li div.image1 div.svg h2 { 
+    font-size: 16px;
+    margin: 8px 15px;
+    color: #ffff;
+    letter-spacing: 0.2em;
+}
+
+#article section.container div.middle ul li div.image2 { 
+    background-image: url(../Assets/industrial-pumps-pipes-large-moving-hot-liquid-associated-piping-insulated-to-retain-temperature-liquid-50254533.jpg);
+    background-repeat: no-repeat;
+    background-position: center;;
+    background-size: 385px;
+    height: 225px;
+    width: 100%;
+}
+
+#article section.container div.middle ul li div.image2 div.svg { 
+    background: #f3643f;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 25px;
+}
+
+#article section.container div.middle ul li div.image2 div.svg h2 { 
+    font-size: 16px;
+    margin: 8px 15px;
+    color: #ffff;
+    letter-spacing: 0.2em;
+}
+
+#article section.container div.middle ul li div.image3 { 
+    background-image: url(../Assets/industrial-plant-24624801.jpg);
+    background-repeat: no-repeat;
+    background-position: center;;
+    background-size: 385px;
+    height: 225px;
+    width: 100%;
+}
+
+#article section.container div.middle ul li div.image3 div.svg { 
+    background: #f3643f;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 25px;
+}
+
+#article section.container div.middle ul li div.image3 div.svg h2 { 
+    font-size: 16px;
+    margin: 8px 15px;
+    color: #ffff;
+    letter-spacing: 0.2em;
+}
+
+#article section.container div.middle ul li div.margin{
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+#article section.container div.middle ul li div.margin h3 { 
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #797576;
+}
+
+#article section.container div.middle ul li div.margin h3 b { 
+    font-size: 19px;
+    color: #000;
+    word-spacing: .2em;
+}
+
+#article section.container div.middle ul li div.margin h2 { 
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    margin-top: 15px;
+}
+
+#article section.container div.middle ul li div.margin h2 br { 
+
+}
+#article section.container div.middle ul li div.margin .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 10px;
+
+}
+#article section.container div.middle ul li div.margin .arrow a.button { 
+    display: block;
+    color: #f3643f;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+#article section.container div.middle ul li div.margin .arrow img{
+    width: 10%;
+    display: block; 
+}
+
+#article section.container div.bottom{
+
+}
+
+#article section.container div.bottom ul{
+    display: flex;
+    justify-content: center;
+}
+
+#article section.container div.bottom ul li{
+    width: 13px;
+    height: 13px;
+    border: 3px solid #f3643f;
+    margin-left: 10px;
+}
+
+#article section.container div.bottom ul li:nth-child(2){
+    background: #f3643f;
+}
