@@ -1034,3 +1034,279 @@ header .content .right ul li .delete a img {
 #style section.container div.right div.porches p b { 
     color: #f3643f;
 }
+
+#coustomer { 
+
+}
+
+#coustomer section.container { 
+    margin-top: 100px;
+}
+
+#coustomer section.container div.top { 
+    
+}
+
+#coustomer section.container div.top ul { 
+    display: flex;
+    justify-content: space-between;
+    margin: 0 250px;
+    
+    
+}
+
+#coustomer section.container div.top ul li { 
+    margin: 0 auto;
+    text-align: center;
+  
+}
+
+#coustomer section.container div.top ul li h1 { 
+    font-size: 40px;
+    font-weight: 600;
+    color: #f3643f;
+}
+
+#coustomer section.container div.top ul li h3 { 
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+    color: #868583;
+}
+
+#coustomer section.container div.top ul li h2{
+    font-size: 21px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+    letter-spacing: 0.1em;
+}
+
+#coustomer section.container div.middle { 
+    margin-top: 70px;
+    background-image: url(../Assets/pexels-anamul-rezwan-1145434\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -210px;
+    background-size: 1520px 994px;
+    height: 565px;
+    width: 100%;
+    position: relative;
+}
+
+#coustomer section.container div.middle div.white{
+    background: #ffff;
+    width: 32%;
+    height: 570px;
+    position: absolute;
+    left: 250px;
+    padding-left: 50px;
+}
+
+#coustomer section.container div.middle div.white div.head { 
+    margin-bottom: 30px;
+}
+
+#coustomer section.container div.middle div.white div.head h3 { 
+    position: relative;
+    color: #f3643f;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;  
+}
+
+#coustomer section.container div.middle div.white div.head h3 .box{
+    width: 20px;
+    height: 40px;
+    border: 2px solid #000;
+    position: absolute;
+    top: -10px;
+    left: 7px;
+    
+}
+
+#coustomer section.container div.middle div.white div.head h1 { 
+    font-size: 45px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 0;
+    width: 90%;
+}
+
+#coustomer section.container div.middle div.white div.design { 
+
+}
+
+#coustomer section.container div.middle div.white div.design ul { 
+    display: flex;
+    
+}
+
+#coustomer section.container div.middle div.white div.design ul li.opacity { 
+    margin-right: 14px;
+    opacity: 0.6;
+   padding-left: 18px;
+   margin-top: -60px;
+}
+#coustomer section.container div.middle div.white div.design ul li.opacity div.img{
+    position: relative;
+    margin-top: 70px;
+    background: #f3643f;
+    width: 80px;
+    height: 80px;
+}
+
+#coustomer section.container div.middle div.white div.design ul li.opacity div.img:hover{
+    background: #c9c5c4;
+    opacity: 1;
+}
+
+#coustomer section.container div.middle div.white div.design ul li.opacity div.img img{
+    position: absolute;
+    bottom: 6px;
+    right: 5px;
+    max-width: 90px;
+
+}
+#coustomer section.container div.middle div.white div.design ul li.opacity div.img img:hover {
+    opacity: 1;
+}
+#coustomer section.container div.middle div.white div.design ul li.opacity:hover {
+    opacity: 1;
+}
+#coustomer section.container div.middle div.white div.design ul li.opacity div.bg:hover {
+    background: #a3a2a2;
+    opacity: 1;
+}
+
+#coustomer section.container div.middle div.white div.design ul li.opacity div.bg {
+    width: 95px;
+    height: 95px;
+    background: #f3643f;
+    position: absolute;
+    opacity: 0.5;
+    /* z-index: -1; */
+    bottom: 42px;
+    right: -7px;
+}
+#coustomer section.container div.middle div.white div.design ul li.opacity div.img img { 
+    width: 100%;
+    display: block;
+    opacity: 0.8;
+}
+
+#coustomer section.container div.middle div.white div.design ul li.opacity h3 { 
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#coustomer section.container div.middle div.white div.design ul li h2 { 
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+    color: #f3643f;
+    letter-spacing: 0.1em;
+}
+
+#coustomer section.container div.middle div.white div.design p { 
+    margin-top: 20px;
+    font-size: 15px;
+    padding-right: 39px;
+    color: #868583;
+    line-height: 1.1em;
+}
+
+#coustomer section.container div.middle div.white div.design div.end { 
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+#coustomer section.container div.middle div.white div.design div.end div.triangle { 
+}
+
+#coustomer section.container div.middle div.white div.design div.end div.triangle ul { 
+
+}
+
+#coustomer section.container div.middle div.white div.design div.end div.triangle ul li { 
+
+}
+
+#coustomer section.container div.middle div.white div.design div.end div.triangle ul li img { 
+    max-width: 20px;
+}
+
+#coustomer section.container div.middle div.white div.design div.end div.star { 
+
+}
+
+#coustomer section.container div.middle div.white div.design div.end div.star ul { 
+
+}
+
+#coustomer section.container div.middle div.white div.design div.end div.star ul li { 
+
+}
+
+#coustomer section.container div.middle div.white div.design div.end div.star ul li img { 
+    max-width: 15px;
+}
+
+#coustomer section.container div.middle div.num { 
+    background: #12192c;
+    padding: 28px 0;
+    width: 40%;
+    position: absolute;
+    width: 32%;
+    position: absolute;
+    bottom: -15px;
+    right: 783px;
+}
+#coustomer section.container div.middle div.num div.content { 
+   width: 50%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+#coustomer section.container div.middle div.num p { 
+    color: #ffff;
+    
+}
+
+#coustomer section.container div.middle div.num h2 { 
+    color: #f3643f;
+}
+
+#coustomer section.container div.bottom {
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+#coustomer section.container div.bottom ul { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 220px;
+
+}
+
+#coustomer section.container div.bottom ul li { 
+    width: 6%;
+    
+}
+
+#coustomer section.container div.bottom ul li img { 
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#coustomer section.container div.bottom ul li h3 { 
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+}
