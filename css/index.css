@@ -843,7 +843,7 @@ header .content .right ul li .delete a img {
     font-weight: 500;
     letter-spacing: 0.2em;
 }
-#article section.container div.middle ul li div.margin .arrow img{
+#article section.container div.middle ul li div.margin .arrow .arrrow img{
     width: 10%;
     display: block; 
 }
@@ -866,4 +866,171 @@ header .content .right ul li .delete a img {
 
 #article section.container div.bottom ul li:nth-child(2){
     background: #f3643f;
+}
+
+#style { 
+    background: #f1f2f4;
+  
+}
+
+#style section.container { 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#style section.container div.left { 
+
+}
+
+#style section.container div.left h3 { 
+    position: relative;
+    color: #f3643f;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;  
+}
+
+#style section.container div.left h3 .box{
+    width: 20px;
+    height: 40px;
+    border: 2px solid #000;
+    position: absolute;
+    top: -10px;
+    left: 7px;
+}
+
+#style section.container div.left h1 { 
+    font-size: 50px;
+    font-weight: 600;
+    width: 50%;
+}
+
+#style section.container div.left p { 
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #868583;
+}
+
+#style section.container div.left p b { 
+    color: #f3643f;
+}
+
+#style section.container div.left a.button { 
+    border: 1px solid #f3643f;
+    padding: 5px 20px;
+    letter-spacing: 0.1em;
+    color: #ffff;
+    background: #f3643f;
+}
+
+#style section.container div.right { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+
+}
+
+#style section.container div.right div.constrection { 
+    background: #ffff;
+    width: 29%;
+    height: 220px;
+    padding: 25px 10px;
+    margin-right: 60px;
+}
+
+#style section.container div.right div.constrection img { 
+    width: 18%;
+    display: block;
+}
+
+#style section.container div.right div.constrection h2 { 
+    font-size: 25px;
+    font-weight: 600;
+    width: 65%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#style section.container div.right div.constrection p { 
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #868583;
+    line-height: 1.3em;
+}
+
+#style section.container div.right div.constrection p b { 
+    color: #f3643f;
+}
+
+#style section.container div.right div.furniture { 
+    background: #ffff;
+    width: 29%;
+    height: 220px;
+    padding: 25px 10px;
+    margin-right: 60px;
+}
+
+#style section.container div.right div.furniture img { 
+    width: 18%;
+    display: block;
+}
+
+#style section.container div.right div.furniture h2 { 
+    font-size: 25px;
+    font-weight: 600;
+    width: 65%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#style section.container div.right div.furniture p { 
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #868583;
+    line-height: 1.3em;
+}
+
+#style section.container div.right div.furniture p b { 
+    color: #f3643f;
+}
+
+#style section.container div.right div.porches { 
+    background: #ffff;
+    width: 29%;
+    height: 220px;
+    padding: 25px 10px;
+    margin-right: 60px;
+}
+
+#style section.container div.right div.porches img { 
+    width: 18%;
+    display: block;
+}
+
+#style section.container div.right div.porches h2 { 
+    font-size: 25px;
+    font-weight: 600;
+    width: 65%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#style section.container div.right div.porches p { 
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #868583;
+    line-height: 1.3em;
+}
+
+#style section.container div.right div.porches p b { 
+    color: #f3643f;
 }
