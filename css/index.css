@@ -1310,3 +1310,212 @@ header .content .right ul li .delete a img {
     margin: 0 auto;
     font-size: 15px;
 }
+
+footer { 
+    background: #12192c;
+    color: #ffff;
+}
+
+footer section.container { 
+    padding: 50px 0;
+   
+}
+
+footer section.container div.top { 
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+footer section.container div.top div.mill { 
+    width: 25%;
+    margin-right: 20px;
+}
+
+footer section.container div.top div.mill h1 { 
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+footer section.container div.top div.mill h1 a { 
+    display: block;
+}
+
+footer section.container div.top div.mill h1 a img { 
+    display: block;
+    width: 100%;
+
+}
+
+footer section.container div.top div.mill p { 
+    font-size: 13px;
+    max-width: 230px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+footer section.container div.top div.about { 
+    width: 25%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+footer section.container div.top div.about h2 { 
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    padding: 0 55px;
+
+}
+
+footer section.container div.top div.about div.content {
+    display: flex;
+    margin-top: 30px;
+}
+
+footer section.container div.top div.about div.content div.left { 
+    margin-right: 15px;
+}
+
+footer section.container div.top div.about div.content div.left ul { 
+    
+}
+
+footer section.container div.top div.about div.content div.left ul li { 
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+footer section.container div.top div.about div.content div.left ul li img { 
+    display: block;
+}
+
+footer section.container div.top div.about div.content div.left ul li h3 { 
+    font-size: 14px;
+    
+}
+
+footer section.container div.top div.about div.content div.right { 
+    
+}
+
+
+
+footer section.container div.top div.about div.content div.right ul { 
+    
+}
+
+footer section.container div.top div.about div.content div.right ul li { 
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+footer section.container div.top div.about div.content div.right ul li img { 
+   
+}
+
+footer section.container div.top div.about div.content div.right ul li h3 { 
+    font-size: 14px;
+}
+
+footer section.container div.top div.post { 
+    width: 25%;
+}
+
+footer section.container div.top div.post h2 { 
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+}
+
+footer section.container div.top div.post ul { 
+
+}
+
+footer section.container div.top div.post ul li.post { 
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer section.container div.top div.post ul li.post img { 
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+footer section.container div.top div.post ul li.post div.date h3 { 
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: #645e5e;
+}
+
+footer section.container div.top div.post ul li.post div.date p { 
+    font-size: 12px;
+}
+
+footer section.container div.top div.map { 
+    width: 22%;
+    background: #f3643f;
+    padding-left: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+}
+
+footer section.container div.top div.map img { 
+    display: block;
+    width: 95%;
+    padding: 10px;
+   
+}
+
+footer section.container div.top div.map h2 { 
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    margin: 15px 0;
+}
+
+footer section.container div.top div.map p { 
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
+
+footer section.container div.top div.map h3 { 
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
+
+footer section.container div.top div.map h4 { 
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+}
+
+footer section.container section.border { 
+  
+}
+
+footer section.border div.line { 
+    border-bottom:1px solid #797576;
+}
+
+footer section.wrapper { 
+
+}
+
+footer section.wrapper div.bottom { 
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+footer section.wrapper div.bottom p { 
+    font-size: 10px;
+    letter-spacing: 0.1em;
+}
