@@ -119,6 +119,9 @@ header .content .left {
     display: block;
     width: 100%;
 }
+header .content .left div.menu{
+    display: none;
+}
 header .content .left h1 {
     margin-right: 24px;
     width: 34px;
@@ -1274,11 +1277,13 @@ header .content .right ul li .delete a img {
 
 #coustomer section.container div.middle div.num p { 
     color: #ffff;
+    letter-spacing: 0.1em;
     
 }
 
 #coustomer section.container div.middle div.num h2 { 
     color: #f3643f;
+    letter-spacing: 0.1em;
 }
 
 #coustomer section.container div.bottom {
@@ -1518,4 +1523,1433 @@ footer section.wrapper div.bottom {
 footer section.wrapper div.bottom p { 
     font-size: 10px;
     letter-spacing: 0.1em;
+}
+@media all and (max-width:1380px){
+    #service section.container div.top h3 div.box {
+        left: 541px;
+    }
+    #service section.container div.bottom ul li div.image1 div.svg {
+        margin-left: 250px;
+    }
+    #service section.container div.bottom ul li div.image2 div.svg {
+        margin-left: 250px;
+    }
+    #service section.container div.bottom ul li div.image3 div.svg {
+        margin-left: 250px;
+    }
+    #project section.container div.top h3 div.box {
+        left: 600px;
+    }
+    #article section.container div.top h3 div.box {
+        left: 532px;
+    }
+    #coustomer section.container div.middle div.num {
+        right: 621px;
+    }
+    #coustomer section.container div.bottom ul li {
+        width: 8%;
+    }
+}
+@media all and (max-width:1280px){
+    #spotlight section.container div.left h5 {
+        font-size: 12px;
+    }
+
+    #spotlight section.container div.left h1 {
+        font-size: 52px;
+        width: 352px;
+        padding-top: 15px;
+    }
+    #spotlight section.container div.left p {
+        font-size: 12px;
+        width: 273px;
+        padding-top: 15px;
+        padding-bottom: 22px;
+    }
+    #spotlight section.container div.left a.button {
+        font-size: 14px;
+        padding: 4px 15px;
+    }
+    #main section.container div.right div.experiance {
+        bottom: -22px;
+    }
+    #main section.container div.right {
+        width: 65%;
+    }
+    #main section.container div.left h3 div.box {
+        width: 17px;
+        height: 34px;
+        top: -9px;
+    }
+    #main section.container div.left h3 {
+        font-size: 14px;
+    }
+    #main section.container div.left {
+        margin-left: 84px;
+        margin-right: 125px;
+    }
+    #main section.container div.left h1 {
+        width: 85%;
+        font-size: 35px;
+    }
+    #main section.container div.left p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        font-size: 10px;
+        width: 100%;
+    
+    }
+    #main section.container div.left div.future {
+        width: 100%;
+    }
+    #main section.container div.left div.future div.vision div.img {
+        width: 15%;
+    }
+    #main section.container div.left div.future div.mission div.img {
+        width: 15%;
+    }
+    #main section.container div.right div.experiance {
+        bottom: 0px;
+    }
+    section.container div.top h3 div.box {
+    margin-left: -104px;
+    }
+    #service section.container div.top h3 div.box {
+        left: 573px;
+    }
+    #service section.container div.bottom ul li div.image1 div.svg {
+        margin-left: 190px;
+    }
+    #service section.container div.bottom ul li div.image2 div.svg {
+        margin-left: 190px;
+    }
+    #service section.container div.bottom ul li div.image3 div.svg {
+        margin-left: 190px;
+    }
+    section.container div.top h3 div.box {
+        margin-left: -115px;
+    }
+    section.container div.top h3 div.box {
+        margin-left: -104px;
+    }
+    #style section.container div.left {
+        width: 35%;
+    }
+    #style section.container div.right div.constrection {
+        width: 33%;
+        height: 215px;
+        padding: 25px 10px;
+        margin-right: 25px;
+    }
+    #style section.container div.right div.constrection img {
+        width: 25%;
+    }
+    #style section.container div.right div.constrection h2 {
+        font-size: 20px;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    } 
+    #style section.container div.right div.furniture {
+        width: 33%;
+        height: 215px;
+        padding: 25px 10px;
+        margin-right: 25px;
+    }
+    #style section.container div.right div.furniture img {
+        width: 25%;
+    }
+    #style section.container div.right div.furniture h2 {
+        font-size: 20px;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    } 
+    #style section.container div.right div.porches {
+        width: 33%;
+        height: 215px;
+        padding: 25px 10px;
+        margin-right: 25px;
+    }
+    #style section.container div.right div.porches img {
+        width: 25%;
+    }
+    #style section.container div.right div.porches h2 {
+        font-size: 20px;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    #project section.container div.top h3 div.box {
+        left: 604px;
+    }
+    #article section.container div.top h3 div.box {
+        left: 546px;
+    }
+    #coustomer section.container div.middle {
+        background-position: -14px -210px;
+        background-size: 1068px 951px;
+        height: 534px;
+        width: 121.9%;
+    }
+    #coustomer section.container div.bottom ul li {
+        width: 9%;
+    }
+    
+    #coustomer section.container div.bottom ul li h3 {
+        font-size: 12px;
+    }
+    #coustomer section.container div.middle div.num {
+        right: 646px;
+    }
+    
+    footer section.container div.top div.mill h1 {
+        width: 32px;
+    }
+    footer section.container div.top div.map {
+        width: 25%;
+        bottom: 61px;
+    }
+    footer section.container {
+        padding: 50px 0 20px;
+    }
+    footer section.wrapper div.bottom {
+        padding-bottom: 50px;
+    }
+}
+
+@media all and (max-width:1080px){
+    #main section.container div.right div.experiance {
+        bottom: 29px;
+    }
+    #main section.container div.right div.experiance h1 {
+        font-size: 55px;
+    }
+    #main section.container div.right div.experiance p {
+        font-size: 14px;
+    }
+    #service section.container div.top h3 div.box {
+        margin-left: -167px;
+    }
+    #service section.container div.bottom ul li div.image1 {
+        background-position: 0px -72px;
+        background-size: 272px;
+        height: 170px
+    }
+    #service section.container div.bottom ul li div.image1 div.svg {
+        margin-top: 140px;
+        margin-left: 175px;
+        width: 55px;
+    }
+    #service section.container div.bottom ul li div.image2 {
+        background-position: 0px -200px;
+        background-size: 272px;
+        height: 170px
+    }
+    #service section.container div.bottom ul li div.image2 div.svg {
+        margin-top: 140px;
+        margin-left: 175px;
+        width: 55px;
+    }
+    #service section.container div.bottom ul li div.image3 {
+        background-position: 0px -145px;
+        background-size: 272px;
+        height: 170px
+    }
+    #service section.container div.bottom ul li div.image3 div.svg {
+        margin-top: 140px;
+        margin-left: 175px;
+        width: 55px;
+    }
+    #service section.container div.bottom ul li h3 {
+        font-size: 13px;
+    }
+    #service section.container div.bottom ul li h2 {
+        margin-top: 3px;
+        font-size: 22px;
+    }
+    #service section.container div.bottom ul li p {
+        margin-top: 5px;
+        font-size: 11px;
+        margin-bottom: 16px;
+    }
+    #service section.container div.bottom ul li a.buttom {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    #service section.container div.bottom ul li {
+        width: 30%;
+        padding-bottom: 30px;
+    }
+    #project section.container div.top h3 div.box {
+        left: 555px;
+    }
+    #article section.container div.top h3 div.box {
+        left: 500px;
+    }
+    #article section.container div.middle ul li div.image1 {
+        background-size: 265px;
+        height: 166px;
+    }
+    #article section.container div.middle ul li div.image1 div.svg h2 {
+        font-size: 11px;
+        margin: 5px 10px;
+    }
+    #article section.container div.middle ul li div.image1 div.svg {
+        margin-top: 150px;
+        margin-left: 15px;
+    }
+    #article section.container div.middle ul li div.image2 {
+        background-size: 265px;
+        height: 166px;
+    }
+    #article section.container div.middle ul li div.image2 div.svg h2 {
+        font-size: 11px;
+        margin: 5px 10px;
+    }
+    #article section.container div.middle ul li div.image2 div.svg {
+        margin-top: 150px;
+        margin-left: 15px;
+    }
+    #article section.container div.middle ul li div.image3 {
+        background-size: 265px;
+        height: 166px;
+    }
+    #article section.container div.middle ul li div.image3 div.svg h2 {
+        font-size: 11px;
+        margin: 5px 10px;
+    }
+    #article section.container div.middle ul li div.image3 div.svg {
+        margin-top: 150px;
+        margin-left: 15px;
+    }
+    #article section.container div.middle ul li div.margin {
+        margin-top: 10px;
+    }
+    #article section.container div.middle ul li div.margin h3 {
+        font-size: 11px;
+    }
+    #article section.container div.middle ul li div.margin h2 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    #article section.container div.middle ul li div.margin .arrow a.button {
+        font-size: 12px;
+    }
+    #article section.container {
+        margin-bottom: 65px;
+    }
+    #style section.container div.left h1 {
+        font-size: 45px;
+    }
+    #style section.container div.right div.constrection {
+        height: 175px;
+        padding: 15px 10px;
+        margin-right: 20px;
+    }
+    #style section.container div.right div.constrection h2 {
+        font-size: 18px;
+    }
+    #style section.container div.right div.constrection p {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: none;
+    }
+    #style section.container div.right div.furniture {
+        height: 175px;
+        padding: 15px 10px;
+        margin-right: 20px;
+    }
+    #style section.container div.right div.furniture h2 {
+        font-size: 18px;
+    }
+    #style section.container div.right div.furniture p {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: none;
+    }
+    #style section.container div.right div.porches {
+        height: 175px;
+        padding: 15px 10px;
+        margin-right: 20px;
+    }
+    #style section.container div.right div.porches h2 {
+        font-size: 18px;
+    }
+    #style section.container div.right div.porches p {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: none;
+    }
+    #coustomer section.container div.middle div.white {
+        width: 34%;
+        height: 570px;
+        position: absolute;
+        top: -5px;
+        left: 193px;
+        padding-left: 30px;
+    }
+    #coustomer section.container div.middle div.white div.head h1 {
+        font-size: 39px;
+        width: 90%;
+    }
+    
+    #coustomer section.container div.middle div.num {
+        width: 34.1%;
+        bottom: -28px;
+        right: 596px;
+    }
+    #coustomer section.container div.middle div.num p {
+        font-size: 14px;
+    }
+    #coustomer section.container div.bottom ul li {
+        width: 10%;
+    }
+}
+@media all and (max-width:980px){
+    #spotlight section.container div.left h1 {
+        font-size: 45px;
+        width: 258px;
+    } 
+    section.container div.left h5 {
+        font-size: 12px;
+    }
+    section.container div.right ul li {
+        width: 27%;
+    }
+    #spotlight section.container div.right ul li img {
+        display: block;
+        width: 100%;
+        box-shadow: -7px 7px #f3643f;
+    }
+    #spotlight section.container {
+        display: flex;
+        padding-bottom: 30px;
+    }
+    #main section.container div.left {
+        margin-left: 20px;
+        margin-right: 25px;
+    }
+    #main section.container div.right div.img {
+        width: 90%;
+    }
+    #main section.container div.right div.experiance {
+        width: 90%;
+    }
+    #main section.container {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    #service section.container {
+        padding: 60px 0;
+    }
+    #service section.container div.top h3 div.box {
+        left: 477px;
+    }
+    #service section.container div.top h1 {
+        font-size: 40px;
+    }
+    #service section.container div.top p {
+        margin-bottom: 50px;
+    }
+    #service section.container div.bottom ul li div.image1 {
+        background-position: 0px -58px;
+        background-size: 216px;
+        height: 132px;
+    }
+    #service section.container div.bottom ul li div.image1 div.svg {
+        margin-top: 106px;
+        margin-left: 140px;
+        width: 45px;
+    }
+    #service section.container div.bottom ul li div.image1 div.svg img {
+        width: 95%;
+        padding: 4px;
+    }
+    #service section.container div.bottom ul li div.image2 {
+        background-position: 0px -158px;
+        background-size: 216px;
+        height: 132px;
+    }
+    #service section.container div.bottom ul li div.image2 div.svg {
+        margin-top: 106px;
+        margin-left: 140px;
+        width: 45px;
+    }
+    #service section.container div.bottom ul li div.image2 div.svg img {
+        width: 95%;
+        padding: 4px;
+    }
+    #service section.container div.bottom ul li div.image3 {
+        background-position: -7px -116px;
+        background-size: 216px;
+        height: 132px;
+    }
+    #service section.container div.bottom ul li div.image3 div.svg {
+        margin-top: 106px;
+        margin-left: 140px;
+        width: 45px;
+    }
+    #service section.container div.bottom ul li div.image3 div.svg img {
+        width: 95%;
+        padding: 4px;
+    }
+    #service section.container div.bottom ul li p {
+        font-size: 10px;
+    }
+    #project section.container div.top h3 div.box {
+        left: 448px;
+    }
+    #project section.container div.top h1 {
+        font-size: 45px;
+    }
+    #article section.container div.top h3 div.box {
+        left: 406px;
+    }
+    #article section.container div.top h1 {
+        font-size: 45px;
+    }
+    #article section.container div.middle ul li div.image1 {
+        background-size: 213px;
+        height: 135px;
+    }
+    #article section.container div.middle ul li div.image1 div.svg {
+        margin-top: 118px;
+        margin-left: 10px;
+    }
+    #article section.container div.middle ul li div.margin h3 {
+        font-size: 10px;
+    }
+    #article section.container div.middle ul li div.margin h2 {
+        font-size: 15px;
+    }
+    #article section.container div.middle ul li div.image2 {
+        background-size: 213px;
+        height: 135px;
+    }
+    #article section.container div.middle ul li div.image2 div.svg {
+        margin-top: 118px;
+        margin-left: 10px;
+    }
+    #article section.container div.middle ul li div.image3 {
+        background-size: 213px;
+        height: 135px;
+    }
+    #article section.container div.middle ul li div.image3 div.svg {
+        margin-top: 118px;
+        margin-left: 10px;
+    }
+    #style section.container {
+        flex-wrap: wrap;
+    }
+    #style section.container div.left {
+        width: 100%;
+        text-align: center;
+    }
+    #style section.container div.left h3 .box {
+       
+        left: 313px;
+    }
+    #style section.container div.left h1 {
+
+        margin: 0 auto;
+    }
+    #style section.container div.right {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    #coustomer section.container div.top ul {
+        margin: 0 110px;
+    }
+    #coustomer section.container div.middle {
+        background-position: -165px -100px;
+        background-size: 1040px 770px;
+        height: 510px;
+        width: 100%;
+    }
+    #coustomer section.container div.middle div.white {
+        width: 50%;
+        top: -5px;
+        left: 102px;
+        padding-left: 25px;
+    }
+    #coustomer section.container div.middle div.num {
+        width: 50.1%;
+        bottom: -35px;
+        right: 282px;
+        padding: 20px 0;
+    }
+    #coustomer section.container div.middle div.num div.content {
+        width: 100%;
+    }
+    #coustomer section.container div.bottom ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 120px;
+    }
+    footer section.container div.top {
+         flex-wrap: wrap;
+    }
+    footer section.container div.top div.mill {
+        width: 35%;
+    }
+    footer section.container div.top div.post {
+        width: 100%;
+    }
+    footer section.container div.top div.about {
+        width: 50%;
+    }
+    
+    footer section.container div.top div.mill {
+        width: 30%;
+    }
+    footer section.container div.top div.about div.content div.left {
+        margin-right: 15px;
+        width: 23%;
+    }
+    footer section.container div.top div.about div.content div.right {
+        width: 80%;
+    }
+    footer section.container div.top div.map {
+        width: 36%;
+        bottom: 268px;
+    }
+}
+@media all and (max-width: 768px) {
+    header .content .middle{
+        display: none;
+    }
+    header .content .right ul li{
+        display: none;
+    }
+    header .content .right ul li:last-child{
+        display: block;
+    }
+    #spotlight section.container div.left h1 {
+        font-size: 30px;
+        width: 169px;
+        padding-top: 7px;
+    }
+    #spotlight section.container div.left p {
+        font-size: 10px;
+        width: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #spotlight section.container div.left a.button {
+        font-size: 12px;
+        padding: 3px 9px;
+    }
+    #main section.container div.right div.experiance {
+        width: 100%;
+        bottom: 35px;
+    }
+    #main section.container div.right div.img {
+        width: 100%;
+    }
+    #main section.container div.left h1 {
+        width: 56%;
+        font-size: 25px;
+    }
+    #main section.container div.left h3 {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #main section.container div.left h1 {
+        width: 56%;
+        font-size: 25px;
+    }
+    #main section.container div.left div.future div.vision {
+        margin-bottom: 15px;
+    }
+    #service section.container div.top h3 div.box {
+        left: 420px;
+    }
+    #service section.container div.bottom ul{
+        flex-wrap: wrap;
+    }
+    #service section.container div.bottom ul li { 
+        width: 100%;
+        padding-bottom: 30px;
+        border-bottom: 3.5px solid #000;
+        margin-left: 100px;
+    }
+    
+    #service section.container div.bottom ul li div.image1{ 
+        background-image: url(../Assets/pexels-anna-shvets-5711703.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -110px;
+        background-size: 375px;
+        height: 225px;
+        width: 100%;
+    }
+    #service section.container div.bottom ul li div.image1 div.svg{
+        background: #f9f9f9;
+        display: inline-block;
+        margin-top: 178px;
+        margin-left: 281px;
+        border-bottom: 1px solid #000;
+        width: 60px;
+    }
+    
+    #service section.container div.bottom ul li div.margin{
+        margin-left: 12px;
+    }
+    
+    #service section.container div.bottom ul li div.image1 div.svg img{
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+    #service section.container div.bottom ul li div.image2{ 
+        background-image: url(../Assets/pexels-anna-shvets-5710745.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -275px;
+        background-size: 375px;
+        height: 225px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    #service section.container div.bottom ul li div.image2 div.svg{
+        background: #f9f9f9;
+        display: inline-block;
+        margin-top: 178px;
+        margin-left: 281px;
+        border-bottom: 1px solid #000;
+        width: 60px;
+        
+    }
+    
+    #service section.container div.bottom ul li div.image2 div.svg img{
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+    #service section.container div.bottom ul li div.image3{ 
+        background-image: url(../Assets/pexels-anna-shvets-5711220.jpg);
+        background-repeat: no-repeat;
+        background-position: -10px -205px;
+        background-size: 383px;
+        height: 225px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    #service section.container div.bottom ul li div.image3 div.svg{
+        background: #f9f9f9;
+        display: inline-block;
+        margin-top: 178px;
+        margin-left: 281px;
+        border-bottom: 1px solid #000;
+        width: 60px;
+    }
+    
+    #service section.container div.bottom ul li div.image3 div.svg img{
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+    #project section.container div.top h3 div.box {
+        left: 384px;
+    }
+    #article section.container div.top h3 div.box {
+        left: 348px;
+    }
+    #article section.container div.middle ul {
+        flex-wrap: wrap;
+    }
+    #article section.container div.middle ul li {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    #article section.container div.middle ul li div.image1 { 
+        background-image: url(../Assets/close-up-industrial-robot-welding-car-factory-close-up-industrial-robot-welding-metal-part-car-factory-109640032.jpg);
+        background-repeat: no-repeat;
+        background-position: center;;
+        background-size: 385px;
+        height: 225px;
+        width: 100%;
+    }
+    
+    #article section.container div.middle ul li div.image1 div.svg { 
+        background: #f3643f;
+        display: inline-block;
+        margin-top: 200px;
+        margin-left: 123px;
+        
+    }
+    
+    #article section.container div.middle ul li div.image1 div.svg h2 { 
+        font-size: 16px;
+        margin: 8px 15px;
+        color: #ffff;
+        letter-spacing: 0.2em;
+    }
+    
+    #article section.container div.middle ul li div.image2 { 
+        background-image: url(../Assets/industrial-pumps-pipes-large-moving-hot-liquid-associated-piping-insulated-to-retain-temperature-liquid-50254533.jpg);
+        background-repeat: no-repeat;
+        background-position: center;;
+        background-size: 385px;
+        height: 225px;
+        width: 100%;
+    }
+    
+    #article section.container div.middle ul li div.image2 div.svg { 
+        background: #f3643f;
+        display: inline-block;
+        margin-top: 200px;
+        margin-left: 123px;
+    }
+    
+    #article section.container div.middle ul li div.image2 div.svg h2 { 
+        font-size: 16px;
+        margin: 8px 15px;
+        color: #ffff;
+        letter-spacing: 0.2em;
+    }
+    
+    #article section.container div.middle ul li div.image3 { 
+        background-image: url(../Assets/industrial-plant-24624801.jpg);
+        background-repeat: no-repeat;
+        background-position: center;;
+        background-size: 385px;
+        height: 225px;
+        width: 100%;
+    }
+    
+    #article section.container div.middle ul li div.image3 div.svg { 
+        background: #f3643f;
+        display: inline-block;
+        margin-top: 200px;
+        margin-left: 123px;
+    }
+    
+    #article section.container div.middle ul li div.image3 div.svg h2 { 
+        font-size: 16px;
+        margin: 8px 15px;
+        color: #ffff;
+        letter-spacing: 0.2em;
+    }
+    #article section.container div.middle ul li div.margin{
+        margin-left: 125px;
+        margin-top: 20px;
+    }
+    
+    #article section.container div.middle ul li div.margin h3 { 
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: #797576;
+    }
+    
+    #article section.container div.middle ul li div.margin h3 b { 
+        font-size: 19px;
+        color: #000;
+        word-spacing: .2em;
+    }
+    
+    #article section.container div.middle ul li div.margin h2 { 
+        font-size: 22px;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        margin-top: 15px;
+        
+    }
+    #style section.container div.left h3 .box {
+        left: 254px;
+    }
+    #style section.container div.left h1 {
+        width: 55%;
+    }
+    #style section.container div.left a.button {
+        font-size: 14px;
+    }
+    #style section.container div.right {
+        flex-wrap: wrap;
+    }
+    #style section.container div.right div.constrection {
+        height: 200px;
+        width: 40%;
+        margin-bottom: 70px;
+    }
+    #style section.container div.right div.furniture {
+        height: 200px;
+        width: 40%;
+        margin-bottom: 70px;
+    }
+    #style section.container div.right div.porches {
+        height: 200px;
+        width: 40%;
+        margin-left: 165px;
+    }
+    #coustomer section.container div.middle div.white {
+        width: 59%;
+        top: -5px;
+        left: 130px;
+        padding-left: 25px;
+    }
+    #coustomer section.container div.middle div.num {
+        width: 59.1%;
+        bottom: -35px;
+        right: 132px;
+        padding: 20px 0;
+    }
+    #coustomer section.container div.top ul {
+        margin: 0 40px;
+    }
+    #coustomer section.container div.top ul li h1 {
+        font-size: 30px;
+    }
+    #coustomer section.container div.top ul li h2 {
+        font-size: 20px;
+    }
+    #coustomer section.container div.top ul li h3 {
+        font-size: 11px;
+    }
+    #coustomer section.container div.bottom ul {
+        padding: 50px 70px 0;
+    }
+    footer section.container div.top div.mill {
+        width: 65%;
+    }
+    footer section.container div.top div.mill p {
+        font-size: 12px;
+        max-width: 313px;
+        letter-spacing: 0.1em;
+        margin-bottom: 10px;
+    }
+    footer section.container div.top div.about h2 {
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        padding: 26px 0px 0;
+    }
+    footer section.container div.top div.about div.content {
+        margin-top: 20px;
+    }
+    section.container div.right ul li {
+        width: 60%;
+    }
+    footer section.container div.top div.about div.content div.left {
+        margin-right: 15px;
+        width: 50%;
+    }
+    footer section.container div.top div.map {
+        width: 40%;
+        bottom: 405px;
+    }
+}
+@media all and (max-width: 640px) {
+    #spotlight {
+        padding: 60px 0 50px;
+    }
+    #spotlight section.container div.left p {
+        font-size: 11px;
+        width: 146px;
+    }
+    #spotlight section.container div.right {
+        width: 58%;
+    }
+    #spotlight section.container div.right ul li {
+        width: 31%;
+        margin-left: 12px;
+    }
+    #spotlight section.container div.right ul li img {
+        box-shadow: -6px 5px #f3643f;
+    }
+    #main section.container div.right {
+        display: none;
+    }
+    #service section.container div.top h3 div.box {
+        left: 348px;
+    }
+    #service section.container div.bottom ul li {
+        width: 100%;
+        padding-bottom: 30px;
+        border-bottom: 3.5px solid #000;
+        margin-left: 30px;
+    }
+    #project section.container div.top h3 div.box {
+        left: 304px;
+    }
+    #article section.container div.top h3 div.box {
+        left: 276px;
+    }
+    #article section.container div.middle ul li div.margin {
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+    #article section.container div.middle ul li div.image1 div.svg {
+        margin-left: 44px;
+    }
+    #article section.container div.middle ul li div.image2 div.svg {
+        margin-left: 44px;
+    }
+    #article section.container div.middle ul li div.image3 div.svg {
+        margin-left: 44px;
+    }
+    #article section.container {
+        margin-bottom: 45px;
+    }
+    #style section.container div.left h3 .box {
+        left: 182px;
+    }
+    #style section.container div.left h1 {
+        width: 73%;
+    }
+    #style section.container div.left h1 {
+        font-size: 40px;
+    }
+    #style section.container div.left p {
+        font-size: 11px;
+        letter-spacing: 0.1em;
+        margin-top: 8px;
+        margin-bottom: 19px;
+    }
+    #style section.container div.right div.constrection {
+        height: 185px;
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    #style section.container div.right div.furniture {
+        height: 185px;
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    #style section.container div.right div.porches {
+        height: 185px;
+        width: 45%;
+        margin-left: 107px;
+    }
+    #coustomer section.container div.middle div.white {
+        width: 83%;
+        top: -5px;
+        left: 36px;
+        padding-left: 25px;
+    }
+    #coustomer section.container div.middle {
+        background: none;
+    }
+    #coustomer section.container div.middle div.num {
+        width: 73.1%;
+        bottom: -35px;
+        right: 72px;
+        padding: 20px 0;
+    }
+    #coustomer section.container div.bottom {
+        margin-top: 80px;
+        margin-bottom: 95px;
+    }
+    #coustomer section.container div.bottom ul li h3 {
+        font-size: 10px;
+    }
+    #coustomer section.container div.bottom ul li {
+        width: 12%;
+    }
+    #coustomer section.container div.bottom ul {
+        padding: 50px 40px 0;
+    }
+    footer section.container div.top div.map {
+        width: 40%;
+        bottom: 315px;
+    }
+    footer section.container div.top div.map h2 {
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        margin: 10px 0;
+    }
+    footer section.container div.top div.map p {
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        margin-bottom: 10px;
+    }
+    footer section.container div.top div.map h3 {
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        margin-bottom: 10px;
+    }
+    footer section.container div.top div.map h4 {
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        margin-bottom: 10px;
+    }
+    footer section.container div.top div.about {
+        width: 45%;
+    }
+    footer section.container div.top div.post {
+        margin-top: 26px;
+        width: 34%;
+    }
+    footer section.container div.top div.post h2 {
+        font-size: 20px;
+        letter-spacing: 0.1em;
+        margin-bottom: 25px;
+    }
+    footer section.container div.top div.about div.content div.left {
+        margin-right: 0px;
+        width: 45%;
+    }
+    footer section.container div.top div.about div.content div.left ul li h3 {
+        font-size: 12px;
+    }
+    footer section.container div.top div.about div.content div.right ul li h3 {
+        font-size: 12px;
+    }
+    section.container div.right ul li {
+        width: 100%;
+    }
+    
+}
+@media all and (max-width: 480px) {
+    #spotlight section.container div.right {
+        display: none;
+    }
+    #spotlight section.container div.left h1 {
+        font-size: 40px;
+        width: 87%;
+        padding-top: 10px;
+    }
+    #spotlight section.container div.left p {
+        font-size: 15px;
+        width: 90%;
+        padding-bottom: 18px;
+    }
+    #spotlight section.container div.left a.button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    #main section.container div.left h1 {
+        width: 73%;
+        font-size: 30px;
+    }
+    #main section.container div.left p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 11px;
+        width: 100%;
+    }
+    #main section.container div.left div.future div.vision div.img {
+        width: 25%;
+    }
+    #main section.container div.left div.future div.mission div.img {
+        width: 25%;
+    }
+    #service section.container div.top h3 div.box {
+        left: 276px;
+    }
+    #service section.container div.top p {
+        font-size: 11px;
+    }
+    #service section.container div.bottom ul li div.image1 {
+        background-image: url(../Assets/pexels-anna-shvets-5711703.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -80px;
+        background-size: 275px;
+        height: 165px;
+        width: 91%;
+    }
+    #service section.container div.bottom ul li div.image1 div.svg {
+        background: #f9f9f9;
+        display: inline-block;
+        margin-top: 130px;
+        margin-left: 190px;
+        border-bottom: 1px solid #000;
+        width: 50px;
+    }
+    #service section.container div.bottom ul li div.image2 {
+        background-image: url(../Assets/pexels-anna-shvets-5710745.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -203px;
+        background-size: 275px;
+        height: 165px;
+        width: 91%;
+    }
+    #service section.container div.bottom ul li div.image2 div.svg {
+        background: #f9f9f9;
+        display: inline-block;
+        margin-top: 130px;
+        margin-left: 190px;
+        border-bottom: 1px solid #000;
+        width: 50px;
+    }
+    #service section.container div.bottom ul li div.image3 {
+        background-image: url(../Assets/pexels-anna-shvets-5711220.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -150px;
+        background-size: 275px;
+        height: 165px;
+        width: 91%;
+    }
+    #service section.container div.bottom ul li div.image3 div.svg {
+        background: #f9f9f9;
+        display: inline-block;
+        margin-top: 130px;
+        margin-left: 190px;
+        border-bottom: 1px solid #000;
+        width: 50px;
+    }
+    #project section.container div.top h3 div.box {
+        left: 244px;
+    }
+    #article section.container div.top h3 div.box {
+        left: 222px;
+    }
+    #article section.container div.top p {
+        font-size: 11px;
+        color: #797576;
+        width: 100%;
+        margin: 0 auto;
+        letter-spacing: 0.1em;
+        margin-bottom: 35px;
+    }
+    #article section.container div.middle ul li div.image1 {
+        background-image: url(../Assets/close-up-industrial-robot-welding-car-factory-close-up-industrial-robot-welding-metal-part-car-factory-109640032.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 294px;
+        height: 180px;
+        width: 100%;
+    }
+    #article section.container div.middle ul li div.image1 div.svg {
+        margin-left: 35px;
+        margin-top: 155px;
+    }
+    #article section.container div.middle ul li div.image1 div.svg h2 {
+        font-size: 12px;
+    }
+    #article section.container div.middle ul li div.margin h2 {
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        margin-top: 5px;
+    }
+    #article section.container div.middle ul li div.margin {
+        margin-left: 35px;
+        margin-top: 15px;
+    }
+    #article section.container div.middle ul li div.image2 {
+        background-image: url(../Assets/industrial-pumps-pipes-large-moving-hot-liquid-associated-piping-insulated-to-retain-temperature-liquid-50254533.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 294px;
+        height: 180px;
+        width: 100%;
+    }
+    #article section.container div.middle ul li div.image2 div.svg {
+        margin-left: 35px;
+        margin-top: 155px;
+    }
+    #article section.container div.middle ul li div.image2 div.svg h2 {
+        font-size: 12px;
+    }
+    #article section.container div.middle ul li div.image3 {
+        background-image: url(../Assets/industrial-plant-24624801.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 294px;
+        height: 180px;
+        width: 100%;
+    }
+    #article section.container div.middle ul li div.image3 div.svg {
+        margin-left: 35px;
+        margin-top: 155px;
+    }
+    #article section.container div.middle ul li div.image3 div.svg h2 {
+        font-size: 12px;
+    }
+    #style section.container div.left h3 .box {
+        left: 128px;
+    }
+    #style section.container div.left h1 {
+        font-size: 35px;
+        width: 76%;
+    }
+    #style section.container div.left p {
+        font-size: 11px;
+    }
+    #style section.container div.right div.constrection {
+        height: 190px;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    #style section.container div.right div.constrection h2 {
+        font-size: 20px;
+        width: 80%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #style section.container div.right div.furniture {
+        height: 190px;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    #style section.container div.right div.furniture h2 {
+        font-size: 20px;
+        width: 80%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #style section.container div.right div.porches {
+        height: 190px;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    #style section.container div.right div.porches h2 {
+        font-size: 20px;
+        width: 80%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #coustomer section.container div.top ul {
+        margin: 0 15px;
+    }
+    #coustomer section.container div.top ul li h1 {
+        font-size: 20px;
+    }
+    #coustomer section.container div.top ul li h3 {
+        font-size: 10px;
+    }
+    #coustomer section.container div.top ul li h2 {
+        font-size: 15px;
+    }
+    #coustomer section.container div.middle div.white {
+        width: 100%;
+        top: -5px;
+        left: -14px;
+        padding-left: 25px;
+    }
+    #coustomer section.container div.middle div.white div.design p {
+        margin-top: 20px;
+        font-size: 15px;
+        padding-right: 5px;
+        color: #868583;
+        line-height: 1.1em;
+    }
+    #coustomer section.container div.middle div.num {
+        width: 93.1%;
+        bottom: -35px;
+        right: 14px;
+        padding: 20px 0;
+    }
+    #coustomer section.container div.bottom ul {
+        padding: 50px 15px 0;
+    }
+    footer section.container div.top div.mill {
+        width: 100%;
+    }
+    footer section.container div.top div.about {
+        width: 60%;
+    }
+    footer section.container div.top div.map {
+        width: 50%;
+        bottom: 340px;
+    }
+    footer section.container div.top div.post {
+        margin-top: 40px;
+        width: 100%;
+    }
+    footer section.container div.top div.map {
+        width: 50%;
+        bottom: 16px;
+        background-color: #12192c;
+    } 
+    footer section.wrapper div.bottom p {
+        font-size: 7px;
+    }
+}
+@media all and (max-width:360px){
+    #spotlight section.container div.left p {
+        font-size: 12px;
+        width: 80%;
+        padding-bottom: 18px;
+    }
+    #main section.container div.left p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 10px;
+        width: 100%;
+    }
+    #service section.container div.top p {
+        font-size: 9px;
+    }
+    #service section.container div.bottom ul li div.image1 {
+        background-image: url(../Assets/pexels-anna-shvets-5711703.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -80px;
+        background-size: 268px;
+        height: 150px;
+        width: 90%;
+    }
+    #service section.container div.bottom ul li div.image1 div.svg {
+        background: #f9f9f9;
+        display: inline-block;
+        margin-top: 117px;
+        margin-left: 155px;
+        border-bottom: 1px solid #000;
+        width: 50px;
+    }
+    #service section.container div.bottom ul li div.image2 {
+        background-image: url(../Assets/pexels-anna-shvets-5710745.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px -196px;
+        background-size: 268px;
+        height: 150px;
+        width: 90%;
+    }
+    #service section.container div.bottom ul li div.image2 div.svg {
+        background: #f9f9f9;
+        display: inline-block;
+        margin-top: 117px;
+        margin-left: 155px;
+        border-bottom: 1px solid #000;
+        width: 50px;
+    }
+    #service section.container div.bottom ul li div.image3 {
+        background-image: url(../Assets/pexels-anna-shvets-5711220.jpg);
+        background-repeat: no-repeat;
+        background-position: -25px -142px;
+        background-size: 260px;
+        height: 155px;
+        width: 90%;
+    }
+    #service section.container div.bottom ul li div.image3 div.svg {
+        background: #f9f9f9;
+        display: inline-block;
+        margin-top: 117px;
+        margin-left: 155px;
+        border-bottom: 1px solid #000;
+        width: 50px;
+    }
+    #project section.container div.top h3 div.box {
+        left: 224px;
+    }
+    #project section.container div.top h1 {
+        font-size: 35px;
+    }
+    #project section.container div.top p {
+        font-size: 10px;
+    }
+    #article section.container div.top p {
+        font-size: 9px;
+    }
+    #article section.container div.top h3 div.box {
+        left: 204px;
+    }
+    #article section.container div.top h1 {
+        font-size: 40px;
+    }
+    #style section.container div.left h3 .box {
+        left: 110px;
+    }
+    #coustomer section.container div.middle div.white div.design ul li.opacity {
+        width: 28%;
+    }
+    footer section.container div.top div.about {
+        width: 90%;
+    }
 }
